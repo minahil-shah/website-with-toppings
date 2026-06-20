@@ -41,7 +41,7 @@ footer{
     }
     @media(max-width:600px){
         .container{
-            direction:column;
+            flex-direction:column;
             width:360px;
         }
     }
