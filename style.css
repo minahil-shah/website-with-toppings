@@ -43,6 +43,7 @@ footer{
         .container{
             flex-direction:column;
             width:360px;
+            font-size:15px;
         }
     }
 
