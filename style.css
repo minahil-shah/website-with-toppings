@@ -44,7 +44,7 @@ footer{
     }
     @media(max-width:600px){
         .container{
-            grid-area:2/span1;
+            grid-area:2/span 1;
         }
     }
 
