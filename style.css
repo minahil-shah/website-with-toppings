@@ -27,6 +27,37 @@ body{
     font-size: 30px ;
     text-align: center ;
 }
+.container2{
+    display:grid;
+    grid-template-areas:"header header"
+                         "info1 info2"
+                         "info3 info4"
+                         "info5 info6";
+    grid-template-columns:1fr 3fr;
+    gap:3px;
+    background-color:dodgerblue;
+    padding:5px;
+}
+.container2 div{
+    background-color:white;
+    padding:10px;
+}
+.container2 div.header{
+    grid-area:header;
+    text-align:center;}
+.container2 div.info1{
+    grid-area:info1;}
+.container2 div.info2{
+    grid-area:info2;}
+.container2 div.info3{
+    grid-area:info3;}
+.container2 div.info4{
+    grid-area:info4;}
+.container2 div.info5{
+    grid-area:info5;}
+.container2 div.info6{
+    grid-area:info6}
+    
 footer{
     animation-name:bounce;
     animation-duration:1s;
