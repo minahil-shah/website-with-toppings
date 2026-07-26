@@ -32,7 +32,8 @@ body{
     grid-template-areas:"header header"
                          "info1 info2"
                          "info3 info4"
-                         "info5 info6";
+                         "info5 info6"
+                         "info7 info7";
     grid-template-columns:1fr 3fr;
     gap:3px;
     background-color:black;
@@ -56,8 +57,9 @@ body{
 .container2 div.info5{
     grid-area:info5;}
 .container2 div.info6{
-    grid-area:info6}
-    
+    grid-area:info6;}
+.container2 div.info7{
+    grid-area:info7;}
 footer{
     animation-name:bounce;
     animation-duration:1s;
