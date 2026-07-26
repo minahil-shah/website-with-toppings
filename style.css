@@ -59,7 +59,8 @@ body{
 .container2 div.info6{
     grid-area:info6;}
 .container2 div.info7{
-    grid-area:info7;}
+    grid-area:info7;
+    text-align:center;}
 footer{
     animation-name:bounce;
     animation-duration:1s;
