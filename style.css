@@ -74,7 +74,7 @@ footer{
         50%{transform:translateY(-30px); }
     }
     @media(max-width:600px){
-        .container{
+        .container1{
             flex-direction:column;
             width:360px;
             font-size:15px;
